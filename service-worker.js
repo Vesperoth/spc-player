@@ -1,7 +1,8 @@
-const CACHE_NAME = 'spc-player-v69';
+const CACHE_NAME = 'spc-player-v71-ios-media-bridge';
 const APP_SHELL = [
   './',
   './index.html',
+  './index.html?v=71',
   './manifest.json',
   './icons/icon-192.png',
   './icons/icon-512.png'
