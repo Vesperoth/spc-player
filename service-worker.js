@@ -1,4 +1,4 @@
-const CACHE_NAME = 'spc-player-v68';
+const CACHE_NAME = 'spc-player-v69';
 const APP_SHELL = [
   './',
   './index.html',

@@ -12,3 +12,8 @@ Notas:
 - El `index.html` pesa más de 25 MiB, por lo que puede fallar la subida por navegador. Si GitHub rechaza el upload web, usa GitHub Desktop o git por línea de comandos.
 - Para probar como PWA real debe servirse por HTTPS, por ejemplo desde GitHub Pages.
 - La reproducción con pantalla bloqueada en iOS no está garantizada; primero validar carga, reproducción y modo offline.
+
+
+## v69
+- Revertido encabezado sticky de la tabla para evitar superposición visual.
+- Actualizado service worker cache a spc-player-v69.
