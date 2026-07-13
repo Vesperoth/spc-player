@@ -1,8 +1,8 @@
 {
-  "name": "Biblioteca SPC v71",
-  "short_name": "SPC v71",
-  "description": "Biblioteca SPC offline · prueba iOS media bridge",
-  "start_url": "./index.html?v=71",
+  "name": "Biblioteca SPC v72",
+  "short_name": "SPC v72",
+  "description": "Biblioteca SPC offline · iOS con audio en segundo plano, pausa limpia y tiempo MediaSession",
+  "start_url": "./index.html?v=72",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",

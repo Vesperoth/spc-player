@@ -1,11 +1,15 @@
-const CACHE_NAME = 'spc-player-v71-ios-media-bridge';
+const CACHE_NAME = 'spc-player-v73-vip-artwork';
 const APP_SHELL = [
   './',
   './index.html',
-  './index.html?v=71',
+  './index.html?v=73',
   './manifest.json',
   './icons/icon-192.png',
-  './icons/icon-512.png'
+  './icons/icon-512.png',
+  './artwork/vip3.png',
+  './artwork/vip4.png',
+  './artwork/vip5.png',
+  './artwork/vip6.png'
 ];
 
 self.addEventListener('install', (event) => {
