@@ -1,8 +1,8 @@
-const CACHE_NAME = 'spc-player-v79-stable-lockscreen-standalone-pause-sync';
+const CACHE_NAME = 'spc-player-v80-hard-pause-seek';
 const APP_SHELL = [
   './',
   './index.html',
-  './index.html?v=79',
+  './index.html?v=80',
   './manifest.json',
   './icons/icon-192.png',
   './icons/icon-512.png',

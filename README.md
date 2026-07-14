@@ -66,3 +66,6 @@ Actualización v77: reanudación directa y reforzada desde Play en la pantalla b
 - Play/Pause, Anterior y Siguiente permanecen disponibles.
 - Seek/progreso interactivo de la pantalla bloqueada se deshabilita por incompatibilidad de sincronización entre MediaStream y el reloj SPC en PWA standalone.
 - La barra interna del reproductor HTML se conserva.
+
+
+Actualización v80: pausa dura sin bucle de milisegundos, barra de tiempo restaurada y seek experimental sincronizado con recarga del SPC.
