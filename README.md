@@ -54,3 +54,8 @@ Actualización v74: carátulas VIP con fondo extendido, controles Anterior/Sigui
 
 
 Actualización v77: reanudación directa y reforzada desde Play en la pantalla bloqueada de iOS.
+
+
+## v78
+- Corrige la pausa/reanudación desde la pantalla bloqueada en modo PWA standalone.
+- Congela la posición de MediaSession durante pausa y pausa directamente el backend SPC.
