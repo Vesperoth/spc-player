@@ -59,3 +59,10 @@ Actualización v77: reanudación directa y reforzada desde Play en la pantalla b
 ## v78
 - Corrige la pausa/reanudación desde la pantalla bloqueada en modo PWA standalone.
 - Congela la posición de MediaSession durante pausa y pausa directamente el backend SPC.
+
+
+## v79 modo estable de pantalla bloqueada
+- Pausa suave: mantiene vivo el MediaStream y desconecta el audio SPC.
+- Play/Pause, Anterior y Siguiente permanecen disponibles.
+- Seek/progreso interactivo de la pantalla bloqueada se deshabilita por incompatibilidad de sincronización entre MediaStream y el reloj SPC en PWA standalone.
+- La barra interna del reproductor HTML se conserva.
