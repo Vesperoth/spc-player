@@ -1,8 +1,8 @@
-const CACHE_NAME = 'spc-player-v75-bridge-hidden-ios-polished';
+const CACHE_NAME = 'spc-player-v77-lockscreen-resume';
 const APP_SHELL = [
   './',
   './index.html',
-  './index.html?v=75',
+  './index.html?v=77',
   './manifest.json',
   './icons/icon-192.png',
   './icons/icon-512.png',

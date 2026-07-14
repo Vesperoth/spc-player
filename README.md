@@ -46,3 +46,11 @@ Actualización v74: carátulas VIP con fondo extendido, controles Anterior/Sigui
 ## v75
 - El puente de audio iOS sigue activo automáticamente, pero su banner/toast queda totalmente oculto para no cubrir el reproductor.
 - Conserva pausa limpia, reproducción bloqueada, controles anterior/siguiente, tiempo y carátulas VIP de la v74.
+
+
+## v76
+- Oculta en la interfaz el error opaco `Script error.` emitido ocasionalmente por WebKit/iOS.
+- Los errores reales con detalle siguen mostrándose y quedan registrados en consola.
+
+
+Actualización v77: reanudación directa y reforzada desde Play en la pantalla bloqueada de iOS.
