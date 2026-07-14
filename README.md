@@ -38,3 +38,11 @@ Las imágenes recomendadas son PNG cuadradas de 512 × 512.
 
 
 Actualización v73: prueba de carátulas por álbum VIP (VIP3, VIP4, VIP5, VIP6) para Media Session / pantalla bloqueada en iPhone.
+
+
+Actualización v74: carátulas VIP con fondo extendido, controles Anterior/Siguiente en iOS, metadata Tema/Origen/Autor y reactivación suave al desbloquear.
+
+
+## v75
+- El puente de audio iOS sigue activo automáticamente, pero su banner/toast queda totalmente oculto para no cubrir el reproductor.
+- Conserva pausa limpia, reproducción bloqueada, controles anterior/siguiente, tiempo y carátulas VIP de la v74.
