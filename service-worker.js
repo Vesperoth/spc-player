@@ -1,8 +1,8 @@
-const CACHE_NAME = 'spc-player-v83-lock-pause-freeze';
+const CACHE_NAME = 'spc-player-v84-stable';
 const APP_SHELL = [
   './',
   './index.html',
-  './index.html?v=83',
+  './index.html?v=84',
   './manifest.json',
   './icons/icon-192.png',
   './icons/icon-512.png',

@@ -80,3 +80,10 @@ Botón 🧪 para copiar el registro persistente después de probar Pause/Play de
 
 ## v83
 Pausa congelada para PWA instalada: mantiene vivo AudioContext/MediaStream, genera silencio real durante Pause y restaura el callback SPC al reanudar.
+
+
+## v84 estable
+- Conserva la pausa congelada funcional de v83.
+- Retira el panel y almacenamiento de diagnóstico.
+- Mantiene shuffle en segundo plano, carátulas, MediaSession y uso offline.
+- El pequeño reajuste visual del seeker al reanudar es esperado: el media keepalive continúa mientras el reloj SPC permanece congelado.
