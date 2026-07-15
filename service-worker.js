@@ -1,8 +1,8 @@
-const CACHE_NAME = 'spc-player-v81-final-pwa-experiment';
+const CACHE_NAME = 'spc-player-v82-final-pwa-experiment';
 const APP_SHELL = [
   './',
   './index.html',
-  './index.html?v=81',
+  './index.html?v=82',
   './manifest.json',
   './icons/icon-192.png',
   './icons/icon-512.png',

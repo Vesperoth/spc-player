@@ -72,3 +72,7 @@ Actualización v80: pausa dura sin bucle de milisegundos, barra de tiempo restau
 
 
 v81 experimental: recrea AudioContext al reanudar desde bloqueo en PWA, reduce carga al filtrar, añade avance shuffle desde el callback de audio y refuerza navegación offline.
+
+
+## v82 diagnóstico iOS
+Botón 🧪 para copiar el registro persistente después de probar Pause/Play desde la pantalla bloqueada. No cambia la lógica de reproducción de v81.
