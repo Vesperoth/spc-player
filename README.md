@@ -76,3 +76,7 @@ v81 experimental: recrea AudioContext al reanudar desde bloqueo en PWA, reduce c
 
 ## v82 diagnóstico iOS
 Botón 🧪 para copiar el registro persistente después de probar Pause/Play desde la pantalla bloqueada. No cambia la lógica de reproducción de v81.
+
+
+## v83
+Pausa congelada para PWA instalada: mantiene vivo AudioContext/MediaStream, genera silencio real durante Pause y restaura el callback SPC al reanudar.

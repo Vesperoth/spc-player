@@ -1,8 +1,8 @@
-const CACHE_NAME = 'spc-player-v82-final-pwa-experiment';
+const CACHE_NAME = 'spc-player-v83-lock-pause-freeze';
 const APP_SHELL = [
   './',
   './index.html',
-  './index.html?v=82',
+  './index.html?v=83',
   './manifest.json',
   './icons/icon-192.png',
   './icons/icon-512.png',
