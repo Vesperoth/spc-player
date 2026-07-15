@@ -69,3 +69,6 @@ Actualización v77: reanudación directa y reforzada desde Play en la pantalla b
 
 
 Actualización v80: pausa dura sin bucle de milisegundos, barra de tiempo restaurada y seek experimental sincronizado con recarga del SPC.
+
+
+v81 experimental: recrea AudioContext al reanudar desde bloqueo en PWA, reduce carga al filtrar, añade avance shuffle desde el callback de audio y refuerza navegación offline.
