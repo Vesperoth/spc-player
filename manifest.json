@@ -1,8 +1,8 @@
 {
-  "name": "Biblioteca SPC v72",
-  "short_name": "SPC v72",
-  "description": "Biblioteca SPC offline · iOS con audio en segundo plano, pausa limpia y tiempo MediaSession",
-  "start_url": "./index.html?v=72",
+  "name": "Biblioteca SPC",
+  "short_name": "Biblioteca SPC",
+  "description": "Biblioteca SPC offline 1.0.0 con reproducción en segundo plano y MediaSession",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
