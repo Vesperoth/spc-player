@@ -1,17 +1,1 @@
-const CACHE_NAME = 'spc-player-1.0.2-audio-hotfix';
-const APP_SHELL = [
-  './', './index.html', './manifest.json', './icons/icon-192.png', './icons/icon-512.png',
-  './artwork/vip3.png', './artwork/vip4.png', './artwork/vip5.png', './artwork/vip6.png',
-  './artwork/iggy0.png', './artwork/omh.png', './artwork/rack_void.png'
-];
-self.addEventListener('install', event => { event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL))); });
-self.addEventListener('message', event => { if(event.data && event.data.type === 'SKIP_WAITING') self.skipWaiting(); });
-self.addEventListener('activate', event => { event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k)))).then(() => self.clients.claim())); });
-self.addEventListener('fetch', event => {
- if(event.request.method !== 'GET') return;
- if(event.request.mode === 'navigate'){
-  event.respondWith(fetch(event.request).then(response => { const copy=response.clone(); caches.open(CACHE_NAME).then(cache=>cache.put('./index.html',copy)); return response; }).catch(()=>caches.match('./index.html').then(r=>r||caches.match('./'))));
-  return;
- }
- event.respondWith(caches.match(event.request).then(cached => cached || fetch(event.request).then(response => { const copy=response.clone(); caches.open(CACHE_NAME).then(cache=>cache.put(event.request,copy)); return response; })));
-});
+const CACHE_NAME='spc-player-1.0.3-stable';const APP_SHELL=['./','./index.html','./manifest.json','./icons/icon-192.png','./icons/icon-512.png','./artwork/vip3.png','./artwork/vip4.png','./artwork/vip5.png','./artwork/vip6.png','./artwork/iggy0.png','./artwork/omh.png','./artwork/rack.png'];self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE_NAME).then(c=>c.addAll(APP_SHELL))));self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==CACHE_NAME).map(x=>caches.delete(x)))).then(()=>self.clients.claim())));self.addEventListener('message',e=>{if(e.data&&e.data.type==='SKIP_WAITING')self.skipWaiting();});self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;if(e.request.mode==='navigate'){e.respondWith(caches.match('./index.html').then(c=>c||fetch(e.request).then(r=>{const x=r.clone();caches.open(CACHE_NAME).then(k=>k.put('./index.html',x));return r;})));return;}e.respondWith(caches.match(e.request).then(c=>c||fetch(e.request).then(r=>{const x=r.clone();caches.open(CACHE_NAME).then(k=>k.put(e.request,x));return r;})));});
