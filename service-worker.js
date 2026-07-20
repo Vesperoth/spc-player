@@ -1,4 +1,4 @@
-const CACHE_NAME = 'spc-player-1.0.0';
+const CACHE_NAME = 'spc-player-1.0.1-artwork-fix';
 const APP_SHELL = [
   './', './index.html', './manifest.json', './icons/icon-192.png', './icons/icon-512.png',
   './artwork/vip3.png', './artwork/vip4.png', './artwork/vip5.png', './artwork/vip6.png'

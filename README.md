@@ -9,3 +9,6 @@ Base estable para GitHub Pages/PWA.
 - R-ACK ID 89 identificado como `Level 63 - MENTAL GYMNASTICS -- HOPELESS GREED`.
 - El botón de loop usa cambio de estado visual sin rotación acumulativa.
 - En escritorio, el reproductor muestra una carátula del álbum actual; en móvil se oculta para conservar espacio.
+
+
+1.0.1: corrige la carátula visible en el reproductor web y añade carátulas para #0 IGGY'S CASTLE, ~omh~ y R-ACK VOID EXPANSION.
