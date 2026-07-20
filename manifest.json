@@ -1,7 +1,7 @@
 {
   "name": "Biblioteca SPC",
   "short_name": "Biblioteca SPC",
-  "description": "Biblioteca SPC offline 1.0.0 con reproducción en segundo plano y MediaSession",
+  "description": "Biblioteca SPC offline 1.0.2 con reproducción en segundo plano y MediaSession",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

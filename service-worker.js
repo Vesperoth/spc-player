@@ -1,7 +1,8 @@
-const CACHE_NAME = 'spc-player-1.0.1-artwork-fix';
+const CACHE_NAME = 'spc-player-1.0.2-audio-hotfix';
 const APP_SHELL = [
   './', './index.html', './manifest.json', './icons/icon-192.png', './icons/icon-512.png',
-  './artwork/vip3.png', './artwork/vip4.png', './artwork/vip5.png', './artwork/vip6.png'
+  './artwork/vip3.png', './artwork/vip4.png', './artwork/vip5.png', './artwork/vip6.png',
+  './artwork/iggy0.png', './artwork/omh.png', './artwork/rack_void.png'
 ];
 self.addEventListener('install', event => { event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL))); });
 self.addEventListener('message', event => { if(event.data && event.data.type === 'SKIP_WAITING') self.skipWaiting(); });

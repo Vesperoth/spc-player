@@ -11,4 +11,4 @@ Base estable para GitHub Pages/PWA.
 - En escritorio, el reproductor muestra una carátula del álbum actual; en móvil se oculta para conservar espacio.
 
 
-1.0.1: corrige la carátula visible en el reproductor web y añade carátulas para #0 IGGY'S CASTLE, ~omh~ y R-ACK VOID EXPANSION.
+1.0.2: hotfix construido sobre la base 1.0.0 estable. Añade carátulas web sin modificar la lógica del puente iOS.
